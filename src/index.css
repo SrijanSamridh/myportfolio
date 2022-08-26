@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
+  --color-bg-variant: #1d1d6b;    /* 2c2c6c */
   --color-primary: #4db5ff;
   --color-primary-variant: rgb(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -35,7 +35,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--color-bg);
+  background: url("https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: var(--color-white);
   line-height: 1.7;
   /* background-image: linear-gradient(to right, var(--color-bg-variant), var(--color-bg)); */
